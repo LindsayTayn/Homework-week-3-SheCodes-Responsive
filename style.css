@@ -100,3 +100,29 @@ p {
   padding: 20px 15px;
   border-radius: 4px;
 }
+
+@media (max-width: 576px) {
+  .showing-image {
+    display: none;
+  }
+  .showing-app {
+    display: flex;
+    justify-content: center;
+  }
+  .launch-link {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .showing-heading {
+    font-size: 44px;
+  }
+  .image {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 576px) {
+  p {
+    text-align: left;
+  }
+}
